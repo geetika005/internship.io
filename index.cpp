@@ -71,4 +71,13 @@ q.dequeue_back();
  s.dequeue();
 
     return 0;
-}
+} 
+
+/** Time complexity - 
+   Enqueue operation-O(n) 
+   Dequeue operation-O(1)
+   Enqueue_front operation-O(1) 
+   Enqueue_back operation-O(n) 
+   dequeue_front operation-O(1)  
+   dequeue_back operation-O(n) 
+Space Complexity - O(n) **/ 
